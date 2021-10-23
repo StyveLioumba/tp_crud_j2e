@@ -22,15 +22,15 @@
     </div>
     <div class="card-body">
         <form action="save.do" method="post">
-            <div class="form-group">
+            <div class="form-group mb-2">
                 <label for="nom">Nom du produit : </label>
                 <input type="text" name="nom" id="nom" class="form-control">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
                 <label for="prix">Prix : </label>
                 <input type="text" name="prix" id="prix" class="form-control">
             </div>
-            <div>
+            <div class="mb-2">
                 <button type="submit" class="btn btn-primary">Ajouter</button>
             </div>
         </form>

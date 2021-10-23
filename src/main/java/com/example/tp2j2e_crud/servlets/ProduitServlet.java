@@ -53,9 +53,7 @@ public class ProduitServlet extends HttpServlet {
                 request.setAttribute("produit",produit);
                 request.getRequestDispatcher("editer.jsp").forward(request,response);
             default:
-                response.sendError(HttpServletResponse.SC_NOT_FOUND);
-
-
+                request.getRequestDispatcher("/index.jsp").forward(request,response);
 
         }
     }
